@@ -3,9 +3,11 @@ body {
   width: 180px;
   padding: 10px;
   text-align: center;
-  background-color: rgba(249, 249, 249, 0.85);
+  background-color: rgba(249, 249, 249, 0.75);
   color: #333;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 h1 {
@@ -42,7 +44,7 @@ button:disabled {
     cursor: not-allowed;
 }
 
-#stop {
+#stop, #toTop {
     font-size: 12px;
 }
 
